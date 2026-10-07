@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    background: #F4F7FC;
+    color: #1A2A3A;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1A3A6B 0%, #2E5A9C 100%);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 8px;
+}
+
+.tagline {
+    color: #B8C7E0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Main */
+main {
+    padding: 40px 0;
+}
+
+section {
+    background: white;
+    padding: 40px 32px;
+    margin-bottom: 24px;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(26, 58, 107, 0.06);
+}
+
+h2 {
+    color: #1A3A6B;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #1A3A6B;
+    margin-bottom: 8px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 16px;
+    color: #3A4A5C;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+}
+
+.hero .lead {
+    font-size: 17px;
+    max-width: 640px;
+    margin: 0 auto 24px;
+    color: #566B84;
+}
+
+.download-btn {
+    display: inline-block;
+    background: #1A7B4D;
+    color: white;
+    padding: 18px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 8px 0;
+    transition: background 0.2s, transform 0.1s;
+    box-shadow: 0 4px 12px rgba(26, 123, 77, 0.25);
+}
+
+.download-btn:hover {
+    background: #0F5A38;
+    transform: translateY(-1px);
+}
+
+.download-btn:active {
+    transform: translateY(0);
+}
+
+.small {
+    color: #7A8CA3;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+/* Features grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-top: 8px;
+}
+
+.feature {
+    padding: 20px;
+    background: #F8FAFD;
+    border-radius: 12px;
+    border: 1px solid #E4EAF3;
+}
+
+.feature p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #566B84;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 24px;
+    margin-bottom: 16px;
+    color: #3A4A5C;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+code {
+    background: #F0F4FA;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "SF Mono", Monaco, monospace;
+    font-size: 14px;
+    color: #1A3A6B;
+}
+
+/* FAQ */
+details {
+    padding: 16px 0;
+    border-bottom: 1px solid #EDF2F9;
+}
+
+details:last-child {
+    border-bottom: none;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #1A3A6B;
+    padding: 4px 0;
+}
+
+summary:hover {
+    color: #2E5A9C;
+}
+
+details p {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+/* Contact */
+.contact a {
+    color: #1A7B4D;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: #7A8CA3;
+    font-size: 13px;
+    border-top: 1px solid #E4EAF3;
+    background: white;
+}
+
+footer p {
+    margin-bottom: 4px;
+    color: #7A8CA3;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 40px;
+    }
+    section {
+        padding: 28px 20px;
+    }
+    .download-btn {
+        display: block;
+        padding: 16px 24px;
+    }
+}
