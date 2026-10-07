@@ -5,7 +5,7 @@
       "source": "/download/app.apk",
       "headers": [
         { "key": "Content-Type", "value": "application/vnd.android.package-archive" },
-        { "key": "Content-Disposition", "value": "attachment; filename=\"care-loan-manager.apk\"" }
+        { "key": "Content-Disposition", "value": "attachment; filename=\"C.A.R.E.apk\"" }
       ]
     }
   ]
